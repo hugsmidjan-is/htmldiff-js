@@ -1,6 +1,6 @@
 {
   "name": "@hugsmidjan/htmldiff-js",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "JavaScript port of HtmlDiff.Net which is itself a C# port of HtmlDiff. Modified for reglugerd.is",
   "main": "./dist/htmldiff.min.js",
   "author": "Jordan Hitch",
@@ -15,11 +15,12 @@
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode production --watch",
+    "publishdist": "npm run build  &&  npm publish",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dfoverdx/htmldiff-js.git"
+    "url": "git+https://github.com/hugsmidjan-is/htmldiff-js.git"
   },
   "keywords": [
     "HtmlDiff",
@@ -28,10 +29,7 @@
     "Diff Algorithm",
     "Diff Structured File"
   ],
-  "bugs": {
-    "url": "https://github.com/dfoverdx/htmldiff-js/issues"
-  },
-  "homepage": "https://github.com/dfoverdx/htmldiff-js#readme",
+  "homepage": "https://github.com/hugsmidjan-is/htmldiff-js#readme",
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
